@@ -5,9 +5,9 @@ function ProductCard({ product }) {
   console.log(product);
   return (
     <div className="bg-white shadow-md rounded-md p-4">
-      {product.image_url && (
+      {product.imageurl && (
         <img
-          src={product.image_url}
+          src={product.imageurl}
           alt={product.name}
           className="w-full h-32 object-cover rounded-md mb-2"
         />
